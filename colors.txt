@@ -1,0 +1,10 @@
+#7d6609 --- dark brown
+#dcc265 --- light brown
+#38a041 --- green color 
+
+#ff5e13 --- website original orange
+----------------------------------------
+Improve the largest site responsiveness-logo
+mobile responsiveness menu
+
+
