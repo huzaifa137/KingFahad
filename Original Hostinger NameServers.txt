@@ -1,0 +1,11 @@
+kingfahad DNS Original Hostinger NameServers
+
+ns1.dns-parking.com
+
+ns2.dns-parking.com
+
+-----------------------------------------
+kingfahad DNS InfinityFree NameServers
+
+ns1.epizy.com
+ns2.epizy.com

@@ -243,8 +243,8 @@
             <div class="container">
                 <div class="breadcrumb-content">
                     <span class="breadcrumb-sub-title text-white">Contact us</span>
-                    <h1 class="breadcrumb-title mb-1 text-white">Get in Touch</h1>
-                    <p class="breadcrumb-desc font-size-20 text-white wordtext">At King Fahad Islamic Institute, your satisfaction and convenience are our top priorities. We warmly welcome you to reach out to us for any queries, concerns, or assistance you may need.</p>
+                    <h1 class="breadcrumb-title mb-1 text-dark">Get in Touch</h1>
+                    <strong><p class="breadcrumb-desc font-size-20 text-white wordtext">At King Fahad Islamic Institute, your satisfaction and convenience are our top priorities. We warmly welcome you to reach out to us for any queries, concerns, or assistance you may need.</p></strong>
                 </div>
             </div>
         </div>
@@ -306,16 +306,16 @@
                         <div class="col-lg-6">
                             <h2 class="contact-form-title mb-3">Leave a Message</h2>
                             <p class="contact-form-desc mb-0 wordtext">Feel free to contact us through the provided channels, and we look forward to serving you with utmost care and professionalism. Thank you for choosing King Fahad Islamic Institute</p>
-                            <form id="contact-form" class="contact-form pt-10" action="https://whizthemes.com/mail-php/mamunur/oxybuild/oxybuild.php">
+                            <form id="contact-form" class="contact-form pt-10" method="post" action="ONE.html">
                                 <div class="group-input">
-                                    <input type="text" name="con_name" id="con_name" placeholder="Your Name*" class="input-field me-6">
-                                    <input type="text" name="con_email" id="con_email" placeholder="Your Email*" class="input-field mt-6 mt-sm-0">
+                                    <input type="text" name="name" placeholder="Your Name*" class="input-field me-6" required>
+                                    <input type="text" name="email"  placeholder="Your Email*" class="input-field mt-6 mt-sm-0" required>
                                 </div>
                                 <div class="form-field mt-6">
-                                    <textarea name="con_message" id="con_message" placeholder="Message" class="textarea-field"></textarea>
+                                    <textarea name="message" placeholder="Message" class="textarea-field" required></textarea>
                                 </div>
                                 <div class="button-wrap mt-8">
-                                    <button type="submit" value="submit" class="btn btn-custom btn-secondary btn-primary-hover" name="submit">Submit</button>
+                                    <button type="submit" value="submit" onsubmit="alert('Thank you for contacting us')" class="btn btn-custom btn-secondary btn-primary-hover" >Submit</button>
                                     <p class="form-messege mt-5 mb-0"></p>
                                 </div>
                             </form>
@@ -417,12 +417,12 @@
                         <div class="col-md-6 col-sm-4">
                             <ul class="social-link">
                                 <li class="facebook">
-                                    <a href="#" data-tippy="Facebook" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder">
+                                    <a href="https://www.facebook.com/profile.php?id=100057152902860" data-tippy="Facebook" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder">
                                         <i class="fa fa-facebook"></i>
                                     </a>
                                 </li>
                                 <li class="twitter">
-                                    <a href="#" data-tippy="Twitter" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder">
+                                    <a href="https://twitter.com/kingfahadbusega" data-tippy="Twitter" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder">
                                         <i class="fa fa-twitter"></i>
                                     </a>
                                 </li>

@@ -18290,6 +18290,18 @@ input[type=checkbox]:checked + label:after {
   z-index: -1;
 }
 
+.banner-style-3 .banner-secondary-bg2:before, .banner-style-3 .banner-primary-bg:before {
+  background-color: #fff ;
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  /* border: 1px solid black; */
+}
+
 .banner-style-3 .banner-secondary-bg1:before, .banner-style-3 .banner-primary-bg:before {
   background-color: #dcc265 ;
   width: 100%;
